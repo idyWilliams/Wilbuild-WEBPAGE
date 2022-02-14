@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 1px  solid #ffd700;
+    background-color: gold;
+    color: black;
+    /* margin: 20px; */
+    padding-bottom: 10px;
+    width: 100%;
+}
+.socials{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* border: 1px solid; */
+}
+.socials ul{ 
+    list-style: none;
+} 
+.email{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+}
+.botton button{
+    padding: 10px 50px;
+    height: 100%;
+    font-size: 20px;
+    color: #ffff;
+    font-weight: bold;
+    background-color: dodgerblue;
+    border: none;
+    border-radius: px;
+    box-shadow: 1px 10px dodgerblue;
+    cursor: pointer;
+
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navigation figure img{
+    border-radius: 50%;
+    box-shadow: 1px 3px 1px 2px gold;
+    width: 50px;
+    margin-left: 15px;
+    border-left: 0.5px solid gold;
+}
+.navigation .nav ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+.navigation .nav ul li a{
+    
+    text-decoration: none ;
+}
+.nav ul li:hover{
+    border-top: 3px solid hsla(253, 100%, 49%, 0.966);
+    padding: 10px;
+    background-color: gold;
+    border-radius: 10px;
+
+}
+.image>figure>img {
+    width: 100%;
+    /* border: 2px solid#ffd700; */
+
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    width: 280px;
+    height: 60px;
+    border: 1px solid gold;
+    border-radius: 10px;
+    font-size:20px ;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    top: -120px;
+    left: 45%;
+    font-weight: bold;
+    font-family:"Roboto" sans-serif;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* position: relative; */
+    overflow: hidden;
+}
+ span{
+     background: gold;
+     height: 100%;
+     width: 0%;
+     border-radius:10px; 
+     position: absolute;
+     left: 0;
+     bottom: 0;
+     transition: 0.5s;
+    }
+    .btn:hover span{
+     z-index: 1;
+    width: 100%;
+ }
+ .btn:hover {
+     border: none;
+ }
+marquee{
+    margin-top: 0;
+}
